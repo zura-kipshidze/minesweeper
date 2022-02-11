@@ -1,0 +1,73 @@
+import { makeStyles } from '@mui/styles';
+
+export const useStyles = makeStyles({
+	outerContainer: {
+		display: 'flex',
+		flexDirection: 'column',
+		justifyContent: 'center',
+		alignItems: 'center',
+		backgroundColor: '#bcbcbc',
+		width: 'fit-content',
+		padding: 5,
+		borderLeft: '2px solid #fefefe',
+		borderRight: '2px solid #666666',
+		borderBottom: '2px solid #666666',
+		borderTop: '2px solid #fefefe',
+	},
+	innerContainer: {
+		textAlign: 'center',
+		display: 'flex',
+		alignItems: 'center',
+		flexDirection: 'column',
+		width: 'max-content',
+		borderLeft: '3px solid #666666',
+		borderRight: '3px solid #fefefe',
+		borderBottom: '3px solid #fefefe',
+		borderTop: '3px solid #666666',
+	},
+	row: {
+		display: 'flex',
+	},
+	headerContainer: {
+		width: '100%',
+		display: 'flex',
+		justifyContent: 'center',
+		boxSizing: 'border-box',
+		borderLeft: '3px solid #666666',
+		borderRight: '3px solid #fefefe',
+		borderBottom: '3px solid #fefefe',
+		borderTop: '3px solid #666666',
+		padding: 5,
+		margin: 5,
+	},
+	smileButton: {
+		width: 24,
+		height: 24,
+		position: 'relative',
+		borderLeft: '2px solid #fefefe',
+		borderRight: '2px solid #666666',
+		borderBottom: '2px solid #666666',
+		borderTop: '2px solid #fefefe',
+		outline: '1px solid #666666',
+	},
+	smileImage: {
+		width: 50,
+		clip: 'rect(0, 24px, 24px, 0)',
+		position: 'absolute',
+		left: 0,
+	},
+	deadSmileImage: {
+		width: 50,
+		clip: 'rect(23px, 50px, 48px, 26px)',
+		position: 'absolute',
+		left: -27,
+		top: -24,
+	},
+	winnerImage: {
+		width: 50,
+		clip: 'rect(24px, 24px, 47px, 0)',
+		position: 'absolute',
+		left: 0,
+		top: -24,
+	}
+});
